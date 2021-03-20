@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, Image, Text, TouchableOpacity, ImageBackground} from 'react-native';
 import {AddNewSessionButton} from './AddNewSessionButton/AddNewSessionButton';
-//some text
+
 const barImage = require('../../assets/images/bar-19.png');
 const calendarImage = require('../../assets/images/calendar-19.png');
 const statisticsImage = require('../../assets/images/statistics-19.png');
@@ -57,6 +57,11 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-around',
         flexDirection: 'row',
+        shadowColor: '#000',
+        shadowRadius: 2,
+        shadowOpacity: 0.3,
+        shadowOffset: { width: 2, height: 2 },
+        elevation: 8,
     },
     buttonsContainer: {
         justifyContent: 'space-between',
