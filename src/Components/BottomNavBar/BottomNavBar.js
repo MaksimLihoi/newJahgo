@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, Image, Text, TouchableOpacity, ImageBackground} from 'react-native';
 import {AddNewSessionButton} from './AddNewSessionButton/AddNewSessionButton';
-
+//some text
 const barImage = require('../../assets/images/bar-19.png');
 const calendarImage = require('../../assets/images/calendar-19.png');
 const statisticsImage = require('../../assets/images/statistics-19.png');
