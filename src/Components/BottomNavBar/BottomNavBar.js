@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, Image, Text, TouchableOpacity, ImageBackground} from 'react-native';
-import {AddNewSessionButton} from '../AddNewSessionButton/AddNewSessionButton';
+import {AddNewSessionButton} from './AddNewSessionButton/AddNewSessionButton';
+import {AppColors} from '../../assets/styles/Colors';
 
 const barImage = require('../../assets/images/bar-19.png');
 const calendarImage = require('../../assets/images/calendar-19.png');
