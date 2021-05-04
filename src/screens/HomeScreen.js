@@ -6,13 +6,13 @@ import {
 } from 'react-native';
 import {BottomNavBar} from '../Components/HomeScreenComponents/BottomNavBar/BottomNavBar';
 import {DaySessions} from '../Components/HomeScreenComponents/DaySessions/DaySessions';
-import {Calendar} from '../Components/Calendar/Calendar';
+import {JahgoCalendar} from '../Components/Calendar/JahgoCalendar';
 
 
 export const HomeScreen = () => {
     return (
         <View style={styles.container}>
-            <Calendar/>
+            <JahgoCalendar/>
             <DaySessions/>
             <BottomNavBar/>
         </View>

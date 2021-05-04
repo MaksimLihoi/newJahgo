@@ -1,9 +1,9 @@
 import {makeAutoObservable} from 'mobx';
 
-class ObservableCalendarStore {
+class ObservableJahgoCalendarStore {
     constructor() {
         makeAutoObservable(this, {}, {autoBind: true});
     }
 }
 
-export default new ObservableCalendarStore();
+export default new ObservableJahgoCalendarStore();
