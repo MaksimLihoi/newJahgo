@@ -4,8 +4,8 @@ import {
     Text,
     View,
 } from 'react-native';
-import {BottomNavBar} from '../Components/BottomNavBar/BottomNavBar';
-import {DaySessions} from '../Components/DaySessions/DaySessions';
+import {BottomNavBar} from '../Components/HomeScreenComponents/BottomNavBar/BottomNavBar';
+import {DaySessions} from '../Components/HomeScreenComponents/DaySessions/DaySessions';
 
 
 export const HomeScreen = () => {

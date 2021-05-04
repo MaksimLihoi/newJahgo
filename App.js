@@ -2,8 +2,8 @@ import React from 'react';
 import {
     StyleSheet,
     ImageBackground,
-    View,
-    Image
+    SafeAreaView,
+    StatusBar
 } from 'react-native';
 import {HomeScreen} from './src/screens/HomeScreen';
 
@@ -12,12 +12,13 @@ const backgroundImage = require('./src/assets/images/gradient-background-19.png'
 const App = () => {
 
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
+            <StatusBar translucent backgroundColor='transparent'/>
             <ImageBackground style={styles.background}
                              source={backgroundImage}>
                 <HomeScreen/>
             </ImageBackground>
-        </View>
+        </SafeAreaView>
     );
 };
 
@@ -31,10 +32,6 @@ const styles = StyleSheet.create({
         resizeMode: "cover",
         justifyContent: "center"
     },
-    test: {
-        width: 100,
-        height: 100,
-    }
 });
 
 export default App;

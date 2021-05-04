@@ -2,11 +2,11 @@ import React from 'react';
 import {View, StyleSheet, Image, Text, TouchableOpacity, ImageBackground} from 'react-native';
 import {AddNewSessionButton} from './AddNewSessionButton/AddNewSessionButton';
 
-const barImage = require('../../assets/images/bar-19.png');
-const calendarImage = require('../../assets/images/calendar-19.png');
-const statisticsImage = require('../../assets/images/statistics-19.png');
-const searchImage = require('../../assets/images/search-19.png');
-const recommendationsImage = require('../../assets/images/recommendations-19.png');
+const barImage = require('../../../assets/images/bar-19.png');
+const calendarImage = require('../../../assets/images/calendar-19.png');
+const statisticsImage = require('../../../assets/images/statistics-19.png');
+const searchImage = require('../../../assets/images/search-19.png');
+const recommendationsImage = require('../../../assets/images/recommendations-19.png');
 
 
 export const BottomNavBar = () => {

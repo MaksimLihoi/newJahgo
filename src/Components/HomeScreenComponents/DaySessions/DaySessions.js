@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import {AppColors} from '../../assets/styles/Colors';
+import {AppColors} from '../../../assets/styles/Colors';
 
 
 export const DaySessions = (props) => {

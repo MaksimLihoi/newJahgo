@@ -1,10 +1,9 @@
 import React from 'react';
 import {View, StyleSheet, Image, TouchableOpacity, ImageBackground, Button, Text} from 'react-native';
-import {ScreenSizes} from '../../../assets/styles/ScreenSizes';
 
-const newSessionImage = require('../../../assets/images/plus-button-09.png');
+const newSessionImage = require('../../../../assets/images/plus-button-09.png');
 
-export const AddNewSessionButton = (props) => {
+export const AddNewSessionButton = ({onPress}) => {
     return (
         <View style={styles.container}>
             <TouchableOpacity activeOpacity={0.9} style={styles.touchArea}>
